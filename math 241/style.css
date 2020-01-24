@@ -1,0 +1,150 @@
+body{
+  background-color: rgba(50, 115, 220, 0.3);;
+
+}
+header{
+  margin:40px 0 0px;
+  overflow: hidden;
+}
+
+.title{
+  float: right;
+}
+h1{
+  font-weight: bold;
+  font-family: sans-serif;
+  font: arial;
+  font-size: 20px;
+
+}
+h2{
+  font-weight: bold;
+  font-family: sans-serif, arial;
+  color:  white;
+  font-size:18px;
+  border-left: 5px green solid;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+a{
+  color: blue;
+}
+a:hover{
+  color:red;
+}
+a:visited{
+  color:purple;
+}
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+#global_info h1{
+  color: black;
+  font-size:125%;
+  border-left: 10px red solid;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+#global_info h2{
+  color:black;
+  font-size: 18px;
+}
+#global_info p{
+  color:black;
+}
+#global_info li{
+  color: black;
+}
+header{
+  margin: 20px 0 10px;
+  overflow: hidden;
+}
+nav{
+  margin-top: 10px
+}
+nav li{
+  float:left;
+  list-style: none;
+}
+#nav1:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#nav2:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#nav3:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#nav4:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#nav5:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#nav6:hover{
+  filter:alpha(opacity=60);
+  -ms-filter: "alpha(opacity = 60)";
+  opacity:0.6;
+}
+#global_info{
+  width:670px;
+  float:left;
+  margin-top:30px;
+  margin_right:30px;
+}
+.introduction{
+  background:gray;
+  border: 5px white solid;
+  width: 300px;
+  float: left;
+  margin-right:30px;
+  margin-bottom:30px;
+}
+.greeting{
+
+  width: 340px;
+  float:left;
+  margin-bottom: 30px;
+}
+#section_bar{
+  margin-top: 30px;
+  width: 400px;
+  float: left;
+  margin-bottom: 30px;
+}
+#side_pic{
+  margin-top: 30px;
+  width: 400px;
+  float: left;
+  margin-bottom: 30px;
+}
+footer:before{
+  content:"";
+  display: table;
+  clear: both;
+}
+footer p{
+  background: gray;
+  width: 960px;
+  margin: 50px auto 20px;
+  padding: 5px;
+  text-align: center;
+  font-size: 80%
+}
+footer p small{
+  color: white;
+  border:1px #ffffff solid;
+  padding: 20px;
+  display: block;
+}

@@ -1,0 +1,80 @@
+
+% DOCUMENT FORMATING
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% PACKAGES
+\usepackage{amsmath} % For extended formatting
+\usepackage{amssymb} % For math symbols
+\usepackage{amsthm} % For proof environment
+\usepackage{array} % For tables
+\usepackage{enumerate} % For lists
+\usepackage{extramarks} % For headers and footers
+\usepackage{fancyhdr} % For custom headers
+\usepackage{graphicx} % For inserting images
+\usepackage{multicol} % For multiple columns
+\usepackage{verbatim} % For displaying code
+\usepackage{tkz-euclide}
+\usepackage{pgfplots}
+
+% SET UP HEADER AND FOOTER
+\pagestyle{fancy}
+\lhead{\MyCourse} % Top left header
+\chead{\MyTopicTitle} % Top center header
+\rhead{\MyAssignment} % Top right header
+\lfoot{\MyCampus} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{\MySemester} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+
+
+
+% ----------
+% TITLES AND NAMES 
+% ----------
+
+\newcommand{\MyCourse}{Math 242}
+\newcommand{\MyTopicTitle}{Worksheet 7}
+\newcommand{\MyAssignment}{Name: \qquad \qquad \qquad}
+\newcommand{\MySemester}{Fall 2018}
+\newcommand{\MyCampus}{University of Hawaii at Manoa}
+
+% ----------
+% BEGIN DOCUMENT
+% ----------
+\begin{document}
+
+%---
+\textbf{Directions: } Show all work and simplify your answers.
+\begin{enumerate}
+
+\item For the following integrals, evaluate or conclude divergence.
+\begin{itemize} 
+\item[a)] $$\int_0^1 \dfrac{dx}{x^{3/2}}$$ \vfill
+\item[b)] $$ \int_{-\infty}^0 \theta e^{\theta} \ d\theta$$
+\vfill
+\end{itemize}
+
+\newpage
+\item For the following integrals, test for convergence or divergence. (Remember ``$p$-integrals!")\\
+
+\begin{itemize}
+\item[a)] $$\int_{\pi}^{\infty} \frac{1+\sin x}{x^2} \ dx$$
+\vfill
+\item[b)] $$\int_1^{\infty} \frac{\sqrt{x^4+1}}{x^3} \ dx$$
+\vfill
+\item[c)] $$\int_2^{\infty} \dfrac{dt}{t-\sqrt{t}} $$
+\vfill
+\item[d)] $$ \int_1^{\infty} \dfrac{dx}{x^{100}-6x+7}$$
+\vfill
+\end{itemize}
+
+\end{enumerate}
+% ----------
+% END DOCUMENT
+% ----------
+\end{document}
+
+
