@@ -1,0 +1,82 @@
+% DOCUMENT FORMATING
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% PACKAGES
+\usepackage{amsmath} % For extended formatting
+\usepackage{amssymb} % For math symbols
+\usepackage{amsthm} % For proof environment
+\usepackage{array} % For tables
+\usepackage{enumerate} % For lists
+\usepackage{extramarks} % For headers and footers
+\usepackage{blindtext}
+\usepackage{fancyhdr} % For custom headers
+\usepackage{graphicx} % For inserting images
+\usepackage{multicol} % For multiple columns
+\usepackage{verbatim} % For displaying code
+\usepackage{tkz-euclide}
+\usepackage{pgfplots}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+% SET UP HEADER AND FOOTER
+\pagestyle{fancy}
+\lhead{\MyCourse} % Top left header
+\chead{\MyTopicTitle} % Top center header
+\rhead{\MyAssignment} % Top right header
+\lfoot{\MyCampus} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{\MySemester} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+% ----------
+% TITLES AND NAMES 
+% ----------
+
+\newcommand{\MyCourse}{MATH 242}
+\newcommand{\MyTopicTitle}{Improper Integrals, Sequence, Review}
+\newcommand{\MyAssignment}{NAME: \qquad \qquad}
+\newcommand{\MySemester}{Spring 2020}
+\newcommand{\MyCampus}{University of Hawaii at Manoa}
+
+\begin{document}
+\textbf{Directions} Read the directions and show all work. 
+\begin{enumerate}
+    \item Evaluate the integral or show it diverges
+    \begin{itemize}
+        \item[(a)] $$\int_{1}^{\infty} \frac{\ln(x)}{x^{4}} dx $$
+        \vspace{2cm}
+        \item[(b)] $$ \int_{-1}^{1} \frac{dx}{x^{2} -2x} $$
+        \vspace{2cm}
+    \end{itemize}
+    \item List the first five terms of the following sequence
+    $$ a_n = \frac{1}{(n+1)!} $$
+    \vspace{2cm}
+    \item Find a formula for the general $a_n$ of the sequence 
+    $\{1,0,-1,0,1,0,-1,0 ... \}$
+    \vspace{2cm}
+    \item Determine whether the following sequence converge or diverge. If it converges find the limit 
+    \begin{itemize}
+        \item[(a)] $a_n = 3^n 7^{-n}$ 
+        \vspace{2cm}
+        \item[(b)] $\{0,1,0,0,1,0,0,0,1\}$
+        \clearpage
+    \end{itemize}
+
+
+\subsubsection*{Review before Spring Break}
+    \item Given that $\int \frac{1}{1+x^{2}} = \arctan(x) + C$, prove that using trig substitution 
+    \vspace{3cm}
+    \item \textbf{TRUE or FALSE} Every function has an inverse function. 
+    \vspace{1mm}
+    \item \textbf{TRUE} or \textbf{FALSE}: When integrating a rational function (partial fraction decomposition), use long division when the degree of the numerator is \textit{greater than} the degree of the denominator.
+    \vspace{1mm}
+    \item Evaluate the derivative: $xe^{y} = y - 1$
+    \vspace{3cm}
+    \item Evaluate the integral:
+    $$ \int \sin(2z) \cos^{2}(z) dz $$
+    \textbf{HINT} Check your trig formula sheet to see what you can substitute with 
+    \vspace{3cm}
+    \item Tomorrow is Pi Day (3-14). Either list the digit pi (in terms of decimal) to the thousandth place or draw an image of a a pie. 
+\end{enumerate}
+\end{document}
